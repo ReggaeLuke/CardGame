@@ -28,13 +28,14 @@ namespace LeedsHack
                 }
 
                 // pick 1 card or choose to give up
-                Console.WriteLine("Pick a card to play, player 1 " + fieldHandler.getPlayer1Points());
+                Console.WriteLine("Pick a card to play, player 1 ");
                 string cardToPlay = Console.ReadLine();
                 Console.WriteLine();
 
                 switch (cardToPlay)
                 {
                     case "giveup":
+                        fieldHandler.ResetField();
                         return 2;
                     case "skip":
                         didSomeOneSkip++;
@@ -53,6 +54,8 @@ namespace LeedsHack
                         break;
                 }
 
+                fieldHandler.PrintStatus();
+
                 // Pint out all cards
                 foreach (Card item in player2.playerDeck)
                 {
@@ -60,13 +63,14 @@ namespace LeedsHack
                 }
 
                 // Pick one card or choose to give up
-                Console.WriteLine("Pick a card to play, player 2 " + fieldHandler.getPlayer2Points());
+                Console.WriteLine("Pick a card to play, player 2 ");
                 cardToPlay = Console.ReadLine();
                 Console.WriteLine();
 
                 switch (cardToPlay)
                 {
                     case "giveup":
+                        fieldHandler.ResetField();
                         return 1;
                     case "skip":
                         didSomeOneSkip++;
@@ -84,6 +88,8 @@ namespace LeedsHack
                         }
                         break;
                 }
+
+                fieldHandler.PrintStatus();
             }
 
             int player1FinalPoints = fieldHandler.getPlayer1Points();
@@ -103,14 +109,17 @@ namespace LeedsHack
 
             if (player1FinalPoints > player2FinalPoints)
             {
+                fieldHandler.ResetField();
                 return 1;
             }
             else if (player1FinalPoints < player2FinalPoints)
             {
+                fieldHandler.ResetField();
                 return 2;
             }
             else
             {
+                fieldHandler.ResetField();
                 return 3;
             }
         }

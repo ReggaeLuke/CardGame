@@ -14,8 +14,10 @@ namespace LeedsHack_Console
             
             Random rand = new Random();
 
-            RoundHandler round = new RoundHandler(new FieldHandler(new Field()));
-
+            Field field = new Field();
+            EffectHandler effectHandler = new EffectHandler();
+            FieldHandler fieldHandler = new FieldHandler(field, effectHandler);
+            RoundHandler round = new RoundHandler(fieldHandler);
 
             Player player1 = new Player();
             Player player2 = new Player();

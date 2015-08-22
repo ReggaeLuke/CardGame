@@ -8,7 +8,7 @@ namespace LeedsHack
 {
     public class EffectHandler
     {
-        public void AddEffectToCard(UnitCard card, bool[] effects)
+        public UnitCard AddEffectToCard(UnitCard card, bool[] effects)
         {
             if (effects[0])
             {
@@ -24,6 +24,16 @@ namespace LeedsHack
             {
                 card.Value = 1;
             }
+
+            if (effects[3])
+            {
+                if (card.Type == "Melee")
+                {
+                    card.Value = 1;
+                }
+            }
+
+            return card;
         }
     }
 }
