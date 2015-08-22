@@ -1,0 +1,16 @@
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.exe.config
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.exe
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.csprojResolveAssemblyReference.cache
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.exe
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.exe.config
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.exe
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.exe
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.csprojResolveAssemblyReference.cache
