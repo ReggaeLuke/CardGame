@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace LeedsHack
 {
-    class EffectHandler
+    public class EffectHandler
     {
+        public void AddEffectToCard(UnitCard card, bool[] effects)
+        {
+            if (effects[0])
+            {
+                
+            }
+
+            if (effects[1])
+            {
+                card.Value *= 2;
+            }
+
+            if (effects[2])
+            {
+                card.Value = 1;
+            }
+        }
     }
 }

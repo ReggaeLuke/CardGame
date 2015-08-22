@@ -23,6 +23,7 @@ namespace LeedsHack
             {
                 currentPlayerDeck = field.player1Deck;
                 oppPlayerDeck = field.player2Deck;
+                cur
             }
             else 
             {
@@ -53,7 +54,7 @@ namespace LeedsHack
                     case 2:
                         foreach (UnitCard unitCard in oppPlayerDeck)
                         {
-                            unitCard.Value -= 1;
+                            unitCard.Value = 1;
                         }
                         break;
                     case 3:

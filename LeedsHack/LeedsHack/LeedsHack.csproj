@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="EffectHandler.cs" />
     <Compile Include="FieldHandler.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="RoundHandler.cs" />
