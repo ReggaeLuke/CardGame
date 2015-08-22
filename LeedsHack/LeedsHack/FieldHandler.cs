@@ -9,10 +9,12 @@ namespace LeedsHack
     public class FieldHandler
     {
         private Field field;
+        private EffectHandler effectHandler;
 
-        public FieldHandler(Field field)
+        public FieldHandler(Field field, EffectHandler effectHandler)
         {
             this.field = field;
+            this.effectHandler = effectHandler;
         }
         public void Execute(int playerNo, Card card)
         {
@@ -30,19 +32,22 @@ namespace LeedsHack
             
             if (card.GetType() == typeof(UnitCard))
             {
+                // when using unit card
                 UnitCard unitCard = (UnitCard)card;
-                currentPlayerDeck.Add(card);
+                //currentPlayerDeck.Add(card);
+                currentPlayerDeck.Add(effectHandler.AddEffectToCard(card, field.effect));
             }
             else
             {
                 SpecialCard specialCard = (SpecialCard)card;
+                field.effects[specialCard.ID] = true;
 
                 switch (specialCard.ID)
                 {
                     case 1:
                         foreach (UnitCard unitCard in currentPlayerDeck) 
                         {
-                            unitCard.Value *= 2; 
+                            unitCard.Value *= 2;
                         }
                         break;
                     case 2:

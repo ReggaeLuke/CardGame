@@ -10,6 +10,9 @@ namespace LeedsHack
     {
         public List<Card> player1Deck = new List<Card>();
         public List<Card> player2Deck = new List<Card>();
+
+        public bool[] player1Effects = new bool[10];
+        public bool[] player2Effects = new bool[10];
  
     }
 }
