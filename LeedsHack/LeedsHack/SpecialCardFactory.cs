@@ -15,13 +15,13 @@ namespace LeedsHack
             switch (num)
             {
                 case 1:
-                    card.Type = "The Big Double";
+                    card.Name = "The Big Double";
                     break;
                 case 2:
-                    card.Type = "Sure Winner";
+                    card.Name = "Sure Winner";
                     break;
                 case 3:
-                    card.Type = "Measly Melee";
+                    card.Name = "Measly Melee";
                     break;
                 default:
                     break;

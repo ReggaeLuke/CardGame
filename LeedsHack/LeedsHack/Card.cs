@@ -8,6 +8,6 @@ namespace LeedsHack
 {
     public abstract class Card
     {
-        public string Type { get; set; }
+        public string Name { get; set; }
     }
 }

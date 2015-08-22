@@ -118,7 +118,6 @@ namespace LeedsHack
                 field.player1Effects[i] = false;
                 field.player2Effects[i] = false;
             }
-            
         }
 
         public void PrintStatus()
@@ -126,13 +125,13 @@ namespace LeedsHack
             Console.WriteLine("*************************************");
             foreach (Card card in field.player1Deck)
             {
-                Console.Write(card.Type + " ");
+                Console.Write(card.Name + " ");
             }
             Console.WriteLine();
 
             foreach (Card card in field.player2Deck)
             {
-                Console.Write(card.Type + " ");
+                Console.Write(card.Name + " ");
             }
             Console.WriteLine();
 

@@ -8,6 +8,8 @@ namespace LeedsHack
 {
     public class UnitCard : Card
     {
+        public string Type { get; set; }
+
         public int Value { get; set; }
     }
 }

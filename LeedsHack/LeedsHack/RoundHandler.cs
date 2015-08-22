@@ -14,7 +14,8 @@ namespace LeedsHack
         {
             this.fieldHandler = fieldHandler;
         }
-        public int playOneRound(Player player1, Player player2)
+
+        public int playOneRound(Player player1, Player player2, int roundNo)
         {
             int didSomeOneSkip = 0;
 
@@ -24,7 +25,7 @@ namespace LeedsHack
                 // print out all available cards
                 foreach (Card item in player1.playerDeck)
                 {
-                    Console.WriteLine(item.Type);
+                    Console.WriteLine(item.Name);
                 }
 
                 // pick 1 card or choose to give up
@@ -44,7 +45,7 @@ namespace LeedsHack
                         didSomeOneSkip = 0;
                         foreach (Card card in player1.playerDeck)
                         {
-                            if (card.Type == cardToPlay)
+                            if (card.Name == cardToPlay)
                             {
                                 player1.playerDeck.Remove(card);
                                 fieldHandler.Execute(1, card);
@@ -59,7 +60,7 @@ namespace LeedsHack
                 // Pint out all cards
                 foreach (Card item in player2.playerDeck)
                 {
-                    Console.WriteLine(item.Type);
+                    Console.WriteLine(item.Name);
                 }
 
                 // Pick one card or choose to give up
@@ -79,7 +80,7 @@ namespace LeedsHack
                         didSomeOneSkip = 0;
                         foreach (Card card in player2.playerDeck)
                         {
-                            if (card.Type == cardToPlay)
+                            if (card.Name == cardToPlay)
                             {
                                 player2.playerDeck.Remove(card);
                                 fieldHandler.Execute(2, card);
@@ -92,18 +93,27 @@ namespace LeedsHack
                 fieldHandler.PrintStatus();
             }
 
+            // this is for calculating everything including on-hand card
             int player1FinalPoints = fieldHandler.getPlayer1Points();
             int player2FinalPoints = fieldHandler.getPlayer2Points();
-            if (player1.playerDeck.Count == 0 || player2.playerDeck.Count == 0)
+            if ((player1.playerDeck.Count == 0 || player2.playerDeck.Count == 0) && roundNo == 3)
             {
-                foreach (UnitCard item in player1.playerDeck)
+                foreach (Card card in player1.playerDeck)
                 {
-                    player1FinalPoints += item.Value;
+                    if (card.GetType() == typeof(UnitCard))
+                    {
+                        UnitCard unitCard = (UnitCard)card;
+                        player1FinalPoints += unitCard.Value;
+                    }
                 }
 
-                foreach (UnitCard item in player2.playerDeck)
+                foreach (Card card in player2.playerDeck)
                 {
-                    player2FinalPoints += item.Value;
+                    if (card.GetType() == typeof(UnitCard))
+                    {
+                        UnitCard unitCard = (UnitCard)card;
+                        player2FinalPoints += unitCard.Value;
+                    }
                 }
             }
 
