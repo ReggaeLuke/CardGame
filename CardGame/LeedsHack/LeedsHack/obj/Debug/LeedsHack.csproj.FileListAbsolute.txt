@@ -28,3 +28,8 @@ C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
 C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
 C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
 C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb

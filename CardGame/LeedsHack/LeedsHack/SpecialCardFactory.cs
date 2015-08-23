@@ -23,6 +23,27 @@ namespace LeedsHack
                 case 3:
                     card.Name = "Measly Melee";
                     break;
+                case 4:
+                    card.Name = "Rotten Range";
+                    break;
+                case 5:
+                    card.Name = "Stingy Siege";
+                    break;
+                case 6:
+                    card.Name = "The Banisher";
+                    break;
+                case 7:
+                    card.Name = "Deja Vu";
+                    break;
+                case 8:
+                    card.Name = "10 Up";
+                    break;
+                case 9:
+                    card.Name = "Forfeit";
+                    break;
+                case 10:
+                    card.Name = "The Santa Clause";
+                    break;
                 default:
                     break;
             }

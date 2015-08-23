@@ -32,6 +32,26 @@ namespace LeedsHack
                     card.Value = 1;
                 }
             }
+            if (effects[4])
+            {
+                if (card.Type == "Range")
+                {
+                    card.Value = 1;
+                }
+            }
+
+            if (effects[5])
+            {
+                if (card.Type == "Siege")
+                {
+                    card.Value = 1;
+                }
+            }
+
+            if (effects[6])
+            {
+
+            }
 
             return card;
         }

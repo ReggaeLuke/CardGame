@@ -20,6 +20,7 @@ namespace CardGame
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            LockAllButton();
         }
 
         GameStateController gameStateController;
@@ -31,6 +32,7 @@ namespace CardGame
 
             foreach (Button button in buttons)
             {
+                button.Image = null;
                 button.Text = "";
             }
             List<Card> deck;
@@ -45,7 +47,9 @@ namespace CardGame
 
             foreach (Card card in deck)
             {
-                buttons.FirstOrDefault(b => b.Text == "").Text = card.Name;
+                Button tempButton = buttons.FirstOrDefault(b => b.Image == null);
+                tempButton.Text = card.Name;
+                tempButton.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
             }
         }
 
@@ -95,49 +99,56 @@ namespace CardGame
 
                     if (gameStateController.gameState.player1Turn)
                     {
-                        if (button.Text == "The mighty melee")
+                        if (button.Text == "Melee")
                         {
-                            var array = new RichTextBox[] { player1melee1, player1melee2, player1melee3, player1melee4, player1melee5, player1melee6, player1melee7 };
-                            array.FirstOrDefault(a => a.Text == "").Text = "The mighty melee";
+                            var array = new PictureBox[] { player1melee1, player1melee2, player1melee3, player1melee4, player1melee5, player1melee6, player1melee7 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image =Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
-                        else if (button.Text == "The mighty range")
+                        else if (button.Text == "Range")
                         {
-                            var array = new RichTextBox[] { player1range1, player1range2, player1range3, player1range4, player1range5, player1range6, player1range7 };
-                            array.FirstOrDefault(a => a.Text == "").Text = "The mighty range";
+                            var array = new PictureBox[] { player1range1, player1range2, player1range3, player1range4, player1range5, player1range6, player1range7 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
-                        else if (button.Text == "The mighty siege")
+                        else if (button.Text == "Siege")
                         {
-                            var array = new RichTextBox[] { player1siege1, player1siege2, player1siege3, player1siege4, player1siege5, player1siege6, player1siege7 };
-                            array.FirstOrDefault(a => a.Text == "").Text = "The mighty siege";
+                            var array = new PictureBox[] { player1siege1, player1siege2, player1siege3, player1siege4, player1siege5, player1siege6, player1siege7 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
                         else
                         {
-                            var array = new RichTextBox[] { player1special1, player1special2, player1special3 };
-                            array.FirstOrDefault(a => a.Text == "").Text = card.Name;
-
+                            var array = new PictureBox[] { player1special1, player1special2, player1special3 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
                     }
                     else
                     {
-                        if (button.Text == "The mighty melee")
+                        if (button.Text == "Melee")
                         {
-                            var array = new RichTextBox[] { player2melee1, player2melee2, player2melee3, player2melee4, player2melee5, player2melee6, player2melee7 };
-                            array.FirstOrDefault(a => a.Text == "").Text = "The mighty melee";
+                            var array = new PictureBox[] { player2melee1, player2melee2, player2melee3, player2melee4, player2melee5, player2melee6, player2melee7 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
-                        else if (button.Text == "The mighty range")
+                        else if (button.Text == "Range")
                         {
-                            var array = new RichTextBox[] { player2range1, player2range2, player2range3, player2range4, player2range5, player2range6, player2range7 };
-                            array.FirstOrDefault(a => a.Text == "").Text = "The mighty range";
+                            var array = new PictureBox[] { player2range1, player2range2, player2range3, player2range4, player2range5, player2range6, player2range7 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
-                        else if (button.Text == "The mighty siege")
+                        else if (button.Text == "Siege")
                         {
-                            var array = new RichTextBox[] { player2siege1, player2siege2, player2siege3, player2siege4, player2siege5, player2siege6, player2siege7 };
-                            array.FirstOrDefault(a => a.Text == "").Text = "The mighty siege";
+                            var array = new PictureBox[] { player2siege1, player2siege2, player2siege3, player2siege4, player2siege5, player2siege6, player2siege7 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
                         else
                         {
-                            var array = new RichTextBox[] { player2special1, player2special2, player2special3 };
-                            array.FirstOrDefault(a => a.Text == "").Text = card.Name;
+                            var array = new PictureBox[] { player2special1, player2special2, player2special3 };
+                            var box = array.FirstOrDefault(a => a.Image == null);
+                            box.Image = Image.FromFile(@"C:\Users\The Chemist\Documents\GitHub\CardGame\Images\" + card.Name + ".PNG");
                         }
                     }
                     gameStateController.PlayACard(card);
@@ -227,7 +238,7 @@ namespace CardGame
 
         private void clearBoard()
         {
-            var array = new RichTextBox[] {
+            var array = new PictureBox[] {
                 player1melee1, player1melee2, player1melee3, player1melee4, player1melee5, player1melee6, player1melee7,
                 player1range1, player1range2, player1range3, player1range4, player1range5, player1range6, player1range7,
                 player1siege1, player1siege2, player1siege3, player1siege4, player1siege5, player1siege6, player1siege7,
@@ -237,9 +248,9 @@ namespace CardGame
                 player1special1, player1special2, player1special3, player2special1, player2special2, player2special3
             };
 
-            foreach (RichTextBox box in array)
+            foreach (PictureBox box in array)
             {
-                box.Text = "";
+                box.Image = null;
             }
 
             roundStatus.Text = "";
