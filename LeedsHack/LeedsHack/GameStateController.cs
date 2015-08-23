@@ -9,7 +9,7 @@ namespace LeedsHack
     public class GameStateController
     {
         private FieldHandler fieldHandler;
-        private GameState gameState;
+        public GameState gameState;
         
         public GameStateController(FieldHandler fieldHandler, GameState gameState)
         {
@@ -21,7 +21,7 @@ namespace LeedsHack
         {
             Random rand = new Random();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 7; i++)
             {
                 UnitCardFactory factory = new UnitCardFactory();
 
@@ -29,7 +29,7 @@ namespace LeedsHack
                 gameState.player2.playerDeck.Add(factory.GetCard(rand.Next(1, 4)));
             }
 
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 3; i++)
             {
                 SpecialCardFactory sfactory = new SpecialCardFactory();
 
@@ -44,15 +44,15 @@ namespace LeedsHack
         {
             if (gameState.player1.playerDeck.Count == 0 && gameState.player2.playerDeck.Count == 0)
             {
-                return 3;
+                return EndRound(3);
             }
             else if (gameState.player1.playerDeck.Count == 0)
             {
-                return 2;
+                return EndRound(2);
             }
             else if (gameState.player2.playerDeck.Count == 0)
             {
-                return 1;
+                return EndRound(1);
             }
             else
             {
@@ -67,6 +67,7 @@ namespace LeedsHack
             {
                 result = EndRound();
             }
+            gameState.didPreviousPlayerSkip = true;
             gameState.player1Turn = !gameState.player1Turn;
             return result;
         }
@@ -109,6 +110,7 @@ namespace LeedsHack
             }
 
             gameState.player1Turn = !gameState.player1Turn;
+            gameState.didPreviousPlayerSkip = false;
         }
 
         public int IsGameEnd()
@@ -138,7 +140,8 @@ namespace LeedsHack
             gameState.player1Turn = true;
             gameState.roundNumber++;
             fieldHandler.ResetField();
-            
+            gameState.didPreviousPlayerSkip = false;
+
             // this is for calculating everything including on-hand card
             int player1FinalPoints = fieldHandler.getPlayer1Points();
             int player2FinalPoints = fieldHandler.getPlayer2Points();
@@ -185,6 +188,7 @@ namespace LeedsHack
             gameState.player1Turn = true;
             gameState.roundNumber++;
             fieldHandler.ResetField();
+            gameState.didPreviousPlayerSkip = false;
 
             if (winner == 1)
             {
