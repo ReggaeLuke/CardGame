@@ -29,7 +29,7 @@ namespace LeedsHack
             else if (num == 3)
             {
                 card.Name = "Siege";
-                card.Value = 7;
+                card.Value = 6;
                 card.Type = "Siege";
             }
             return card;

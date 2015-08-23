@@ -1058,9 +1058,9 @@
             // 
             this.player1special1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player1special1.Enabled = false;
-            this.player1special1.Location = new System.Drawing.Point(64, 292);
+            this.player1special1.Location = new System.Drawing.Point(152, 158);
             this.player1special1.Name = "player1special1";
-            this.player1special1.Size = new System.Drawing.Size(56, 70);
+            this.player1special1.Size = new System.Drawing.Size(88, 115);
             this.player1special1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player1special1.TabIndex = 134;
             this.player1special1.TabStop = false;
@@ -1069,9 +1069,9 @@
             // 
             this.player1special2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player1special2.Enabled = false;
-            this.player1special2.Location = new System.Drawing.Point(166, 292);
+            this.player1special2.Location = new System.Drawing.Point(152, 292);
             this.player1special2.Name = "player1special2";
-            this.player1special2.Size = new System.Drawing.Size(56, 70);
+            this.player1special2.Size = new System.Drawing.Size(88, 115);
             this.player1special2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player1special2.TabIndex = 135;
             this.player1special2.TabStop = false;
@@ -1080,9 +1080,9 @@
             // 
             this.player1special3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player1special3.Enabled = false;
-            this.player1special3.Location = new System.Drawing.Point(268, 292);
+            this.player1special3.Location = new System.Drawing.Point(257, 292);
             this.player1special3.Name = "player1special3";
-            this.player1special3.Size = new System.Drawing.Size(56, 70);
+            this.player1special3.Size = new System.Drawing.Size(88, 111);
             this.player1special3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player1special3.TabIndex = 136;
             this.player1special3.TabStop = false;
@@ -1091,9 +1091,9 @@
             // 
             this.player2special1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player2special1.Enabled = false;
-            this.player2special1.Location = new System.Drawing.Point(64, 158);
+            this.player2special1.Location = new System.Drawing.Point(48, 158);
             this.player2special1.Name = "player2special1";
-            this.player2special1.Size = new System.Drawing.Size(56, 70);
+            this.player2special1.Size = new System.Drawing.Size(88, 115);
             this.player2special1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player2special1.TabIndex = 137;
             this.player2special1.TabStop = false;
@@ -1102,9 +1102,9 @@
             // 
             this.player2special2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player2special2.Enabled = false;
-            this.player2special2.Location = new System.Drawing.Point(166, 158);
+            this.player2special2.Location = new System.Drawing.Point(48, 292);
             this.player2special2.Name = "player2special2";
-            this.player2special2.Size = new System.Drawing.Size(56, 70);
+            this.player2special2.Size = new System.Drawing.Size(88, 115);
             this.player2special2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player2special2.TabIndex = 138;
             this.player2special2.TabStop = false;
@@ -1113,9 +1113,9 @@
             // 
             this.player2special3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.player2special3.Enabled = false;
-            this.player2special3.Location = new System.Drawing.Point(268, 158);
+            this.player2special3.Location = new System.Drawing.Point(257, 158);
             this.player2special3.Name = "player2special3";
-            this.player2special3.Size = new System.Drawing.Size(56, 70);
+            this.player2special3.Size = new System.Drawing.Size(88, 115);
             this.player2special3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player2special3.TabIndex = 139;
             this.player2special3.TabStop = false;

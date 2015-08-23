@@ -65,8 +65,8 @@ namespace CardGame
 
             gameStateController.StartTheGame();
 
-            player1name.Text = gameStateController.gameState.player1.Name;
-            player2name.Text = gameStateController.gameState.player2.Name;
+            player1name.Text = "PLAYER 1";
+            player2name.Text = "PLAYER 2";
             UpdateField();
             DisplayCardList();
             UnlockAllButton();
