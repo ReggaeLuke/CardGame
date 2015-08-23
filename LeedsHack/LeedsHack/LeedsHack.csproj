@@ -43,6 +43,8 @@
     <Compile Include="EffectHandler.cs" />
     <Compile Include="FieldHandler.cs" />
     <Compile Include="Field.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="GameStateController.cs" />
     <Compile Include="RoundHandler.cs" />
     <Compile Include="SpecialCard.cs" />
     <Compile Include="SpecialCardFactory.cs" />

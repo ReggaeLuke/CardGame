@@ -19,6 +19,22 @@ namespace LeedsHack
         {
             int didSomeOneSkip = 0;
 
+            if (player1.playerDeck.Count == 0 && player2.playerDeck.Count == 0)
+            {
+                fieldHandler.ResetField();
+                return 3;
+            }
+            else if (player1.playerDeck.Count == 0)
+            {
+                fieldHandler.ResetField();
+                return 2;
+            }
+            else if (player2.playerDeck.Count == 0)
+            {
+                fieldHandler.ResetField();
+                return 1;
+            }
+
             while (player1.playerDeck.Count > 0 && player2.playerDeck.Count > 0 && didSomeOneSkip < 2)
             {
 
