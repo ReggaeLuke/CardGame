@@ -9,3 +9,14 @@ c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\
 c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache
 c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.exe
 c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.config
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.exe
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.Form1.resources
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.Properties.Resources.resources
+C:\Users\The Chemist\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache

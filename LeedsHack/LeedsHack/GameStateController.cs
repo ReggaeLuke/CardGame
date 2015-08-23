@@ -33,8 +33,8 @@ namespace LeedsHack
             {
                 SpecialCardFactory sfactory = new SpecialCardFactory();
 
-                gameState.player1.playerDeck.Add(sfactory.GetCard(rand.Next(1, 4)));
-                gameState.player2.playerDeck.Add(sfactory.GetCard(rand.Next(1, 4)));
+                gameState.player1.playerDeck.Add(sfactory.GetCard(rand.Next(1, 7)));
+                gameState.player2.playerDeck.Add(sfactory.GetCard(rand.Next(1, 7)));
             }
 
             gameState.player1Turn = true;

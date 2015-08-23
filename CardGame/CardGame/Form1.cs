@@ -76,7 +76,7 @@ namespace CardGame
                 return false;
             }
 
-            roundStatus.Text = "An unit has been summoned to battle!";
+            roundStatus.Text = "A unit has been summoned to battle!";
 
             List<Card> deck;
             if (gameStateController.gameState.player1Turn)
@@ -93,7 +93,7 @@ namespace CardGame
                 if (card.Name == button.Text)
                 {
 
-                    if (!gameStateController.gameState.player1Turn)
+                    if (gameStateController.gameState.player1Turn)
                     {
                         if (button.Text == "The mighty melee")
                         {
@@ -356,6 +356,8 @@ namespace CardGame
                 case 3:
                     gameStatus.Text = "This game was a draw!!!";
                     LockAllButton();
+                    break;
+                default:
                     break;
             }
         }

@@ -83,6 +83,48 @@ namespace LeedsHack
                             }
                         }
                         break;
+                    case 4:
+                        currentPlayerEffect[specialCard.ID] = true;
+                        oppPlayerEffect[specialCard.ID] = true;
+
+                        foreach (UnitCard unitCard in currentPlayerDeck)
+                        {
+                            if (unitCard.Type == "Range")
+                            {
+                                unitCard.Value = 1;
+                            }
+                        }
+                        foreach (UnitCard unitCard in oppPlayerDeck)
+                        {
+                            if (unitCard.Type == "Range")
+                            {
+                                unitCard.Value = 1;
+                            }
+                        }
+                        break;
+                    case 5:
+                        currentPlayerEffect[specialCard.ID] = true;
+                        oppPlayerEffect[specialCard.ID] = true;
+
+                        foreach (UnitCard unitCard in currentPlayerDeck)
+                        {
+                            if (unitCard.Type == "Siege")
+                            {
+                                unitCard.Value = 1;
+                            }
+                        }
+                        foreach (UnitCard unitCard in oppPlayerDeck)
+                        {
+                            if (unitCard.Type == "Siege")
+                            {
+                                unitCard.Value = 1;
+                            }
+                        }
+                        break;
+                    case 6:
+                        currentPlayerEffect[specialCard.ID] = true;
+                        oppPlayerDeck.Clear();
+                        break;
                     default:
                         break;
                 }
