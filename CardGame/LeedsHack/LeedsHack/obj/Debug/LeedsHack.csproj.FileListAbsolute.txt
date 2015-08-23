@@ -1,0 +1,30 @@
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\C#WorkSpace\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\C#WorkSpace\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb
+C:\Users\Shinn\Documents\GitHub\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Users\Shinn\Documents\GitHub\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Users\Shinn\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Users\Shinn\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Users\Shinn\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb
+C:\Users\Jack\Documents\GitHub\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Users\Jack\Documents\GitHub\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Users\Jack\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Users\Jack\Documents\GitHub\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb
+C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.dll
+C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\bin\Debug\LeedsHack.pdb
+C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.csprojResolveAssemblyReference.cache
+C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.dll
+C:\Temp\CardGame\CardGame\LeedsHack\LeedsHack\obj\Debug\LeedsHack.pdb

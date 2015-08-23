@@ -1,0 +1,21 @@
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\bin\Debug\CardGame.exe.config
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\bin\Debug\CardGame.exe
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\bin\Debug\CardGame.pdb
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\bin\Debug\LeedsHack.dll
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\bin\Debug\LeedsHack.pdb
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.Form1.resources
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.Properties.Resources.resources
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.exe
+c:\users\jack\documents\visual studio 2015\Projects\CardGame\CardGame\obj\Debug\CardGame.pdb
+C:\Temp\CardGame\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.config
+C:\Temp\CardGame\CardGame\CardGame\CardGame\obj\Debug\CardGame.exe
+C:\Temp\CardGame\CardGame\CardGame\CardGame\obj\Debug\CardGame.pdb
+C:\Temp\CardGame\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe
+C:\Temp\CardGame\CardGame\CardGame\CardGame\bin\Debug\CardGame.pdb
+C:\Temp\CardGame\CardGame\CardGame\CardGame\bin\Debug\LeedsHack.pdb
+C:\Temp\CardGame\CardGame\CardGame\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+C:\Temp\CardGame\CardGame\CardGame\CardGame\obj\Debug\CardGame.Form1.resources
+C:\Temp\CardGame\CardGame\CardGame\CardGame\obj\Debug\CardGame.Properties.Resources.resources
+C:\Temp\CardGame\CardGame\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache
