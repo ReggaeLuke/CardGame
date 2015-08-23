@@ -22,3 +22,6 @@ C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack_Console\LeedsHack_Conso
 C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack.dll
 C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack.pdb
 C:\Users\The Chemist\Documents\GitHub\CardGame\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.csprojResolveAssemblyReference.cache
+C:\Temp\CardGame\LeedsHack_Console\LeedsHack_Console\bin\Debug\LeedsHack_Console.exe.config
+C:\Temp\CardGame\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.exe
+C:\Temp\CardGame\LeedsHack_Console\LeedsHack_Console\obj\Debug\LeedsHack_Console.pdb

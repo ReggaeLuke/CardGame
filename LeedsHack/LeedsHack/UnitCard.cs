@@ -11,5 +11,7 @@ namespace LeedsHack
         public string Type { get; set; }
 
         public int Value { get; set; }
+
+        public object Image { get; set; }
     }
 }

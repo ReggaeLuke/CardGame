@@ -9,5 +9,6 @@ namespace LeedsHack
     public class SpecialCard : Card
     {
         public int ID { get; set; }
+        public object Image { get; set; }
     }
 }

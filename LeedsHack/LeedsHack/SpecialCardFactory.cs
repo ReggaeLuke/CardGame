@@ -16,12 +16,15 @@ namespace LeedsHack
             {
                 case 1:
                     card.Name = "The Big Double";
+                    card.Image = "~/Content/Images/BigDouble.PNG";
                     break;
                 case 2:
                     card.Name = "Sure Winner";
+                    card.Image = "~/Content/Images/SureWinner.PNG";
                     break;
                 case 3:
                     card.Name = "Measly Melee";
+                    card.Image = "~/Content/Images/MeaslyMelee.PNG";
                     break;
                 default:
                     break;

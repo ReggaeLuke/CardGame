@@ -53,6 +53,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitCard.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Images\10Up.PNG" />
+    <Content Include="Content\Images\BigDouble.PNG" />
+    <Content Include="Content\Images\DeJaVu.PNG" />
+    <Content Include="Content\Images\Forfeit.PNG" />
+    <Content Include="Content\Images\MeaslyMelee.PNG" />
+    <Content Include="Content\Images\RottenRange.PNG" />
+    <Content Include="Content\Images\StingySeige.PNG" />
+    <Content Include="Content\Images\SureWinner.PNG" />
+    <Content Include="Content\Images\TheBannisher.PNG" />
+    <Content Include="Content\Images\TheSantaClause.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
